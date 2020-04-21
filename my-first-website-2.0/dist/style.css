@@ -1,0 +1,160 @@
+/* body */
+
+body {
+	background-color: #999799;
+}
+
+/* flexible displaying */
+
+.flex {
+	display: flex;
+}
+
+.leftC {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 400px;
+	margin-right: 50px;
+}
+
+/* everything */
+
+.everything {
+	font-family: "Karla", sans-serif;
+	line-height: 1.5;
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	background-color: lightgray;
+	color: #0074d9;
+}
+
+/* nav */
+
+nav {
+	background-color: orange;
+
+	padding: 15px;
+
+	display: flex;
+	justify-content: space-evenly;
+}
+
+nav a {
+	text-decoration: none;
+	color: #4a5359;
+	font-size: 26px;
+}
+
+/* header */
+
+header {
+	background-image: url("https://vignette.wikia.nocookie.net/starwars/images/d/da/PodrazdenyAnakin.jpeg/revision/latest?cb=20130113162525&path-prefix=cs");
+	background-size: cover;
+	height: 530px;
+	width: 400px;
+	/* 	border-top: 4px solid black; */
+	color: orange;
+	letter-spacing: 2px;
+	font-family: "DM Serif Text", serif;
+	font-style: italic;
+
+	position: relative;
+}
+
+header span {
+	font-size: 70px;
+	line-height: 0.9;
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+}
+
+h1 {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+}
+
+/* main */
+
+main {
+	margin: 0px auto;
+	width: 430px;
+}
+
+/* start */
+
+.start {
+	font-size: 19px;
+	margin: 60px auto 0px auto;
+	margin-bottom: 100px;
+}
+
+.start span {
+	font-size: 25px;
+	margin-right: 45px;
+}
+
+.start ul {
+	list-style-type: square;
+}
+
+/* parts */
+
+.part {
+	margin: 75px auto 0px auto;
+}
+
+.subpart {
+	margin-top: 40px;
+}
+
+.subpart p {
+	margin-top: 30px;
+	font-size: 15px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-family: "DM Serif Text", serif;
+	letter-spacing: 3px;
+	color: #4a5359;
+}
+
+h3 {
+	font-size: 23px;
+	margin-bottom: 5px;
+}
+
+h4 {
+	margin-top: 0px;
+	/* subtitles font */
+	font-family: "Spectral", serif;
+	font-style: italic;
+}
+
+/* quotes */
+
+blockquote {
+	color: orange; /* BDD358 */
+	background-color: #0074d9;
+	font-size: 47px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding: 50px 70px;
+	font-family: "DM Serif Text", serif;
+	line-height: 1.2;
+
+	position: relative;
+}
+
+blockquote::before {
+	content: "“";
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 150px;
+	line-height: 0.8;
+}
