@@ -24,6 +24,14 @@ $('#remove-button').click(() => {
     $('li:last-child').remove()
 })
 
+let age = 33;
+
+if (condition) {
+
+} else {
+
+}
+
 
 
 // This is a Javascript comment
