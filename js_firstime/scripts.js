@@ -24,12 +24,25 @@ $('#remove-button').click(() => {
     $('li:last-child').remove()
 })
 
-let age = 33;
+/*let age = 33;
 
 if (condition) {
 
 } else {
 
+}*/
+
+let colors = ['red','green','yellow','lime','blue']
+$('#box-conteiner').append('<div class="box"></div>')
+$('.box').css('background',colors[0])
+
+colors.forEach((color) => {
+    $('#box-conteiner').append('<div class="box"></div>')
+    $('.box:last-child').css('background',color)
+})
+
+for (let i = 0; i < 100; i++){
+    console.log(i)
 }
 
 
